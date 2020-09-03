@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Practicing Coding
+</title>
+ <!-- From W3schools:
+ 
+ Latest compiled and minified CSS: 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+ jQuery library: 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+ Popper JS: 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+ Latest compiled JavaScript: 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+ integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
+ crossorigin="anonymous">
+ 
+ -->
+ 
+ <meta name="description" content="Bootstrap's coding is practiced on various html elements">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+
+<meta charset="UTF-8">
+
+<meta name="keyword" content="HTML,CSS,JS,Bootstrap,coding,browser,web development">
+
+<meta name="author" content="Sohaib Farooqui">
+
+<meta http-equiv="refresh" content="180">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="fontawesome-free-5.9.0-web/css/all.css" rel="stylesheet">
+
+<script src="jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<style>
+.a{
+background-color:blue;
+
+}
+#ex{
+background-color:black;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top">
+<a href="#" class="navbar-brand">
+<img src="Image/i10.jpg " style="width:50px;">
+
+</a>
+ <button class="navbar-toggler" data-toggle="collapse" data-target="#open">
+ <span class="navbar-toggler-icon"></span>
+ 
+ </button>
+ 
+ <div class="collapse navbar-collapse text-right" id="open">
+<ul class="navbar-nav">
+
+<li class="nav-item">
+<a href="#" class="nav-link active">Home</a></li>
+<li class="nav-item active">
+<a href="#" class="nav-link">About</a>
+</li>
+<li class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Learn
+</a>
+<div class="dropdown-menu">
+<a href="#" class="dropdown-item">Link 1</a>
+<a href="#" class="dropdown-item">Link 2</a>
+<a href="#" class="dropdown-item">Link 3</a>
+<a href="#" class="dropdown-item">Link 4</a>
+</div>
+</li>
+<li class="nav-item">
+<form class="form-inline">
+<div class="input-group">
+<div class="input-group-prepend">
+<span class="input-group-text">@</span>
+</div>
+<input type="search" class="form-control col-sm-8">
+<button type="search" class="btn btn-info">Search</button>
+
+</div>
+</form>
+</li>
+
+</ul>
+</div>
+<div class="navbar-text">logo.com</div>
+</nav><br><br><br><br>
+<div class="container">
+<div class="jumbotron text-center">
+
+<h1>Hi There...</h1>
+<p>Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+</div>
+
+<div class="row">
+<div class="col-sm-4">
+<a href="" class="thumbnail">
+<img src="Image/i6.jpg" class="img-thumbnail img-fluid">
+</a>
+<h1>heading 1</h1>
+<p>Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+</div>
+<div class="col-sm-4">
+<a href="" class="thumbnail">
+<img src="Image/i14.jpg" class="img-thumbnail img-fluid">
+</a>
+<h1>heading 2</h1>
+<p>Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+</div>
+<div class="col-sm-4">
+<a href="" class="thumbnail">
+<img src="Image/i8.jpg" class="img-thumbnail img-fluid">
+</a>
+<h1>heading 3</h1>
+<p>Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+</div>
+</div>
+<div>
+<h1>Buttons</h1>
+<button class="btn btn-default">Default</button>
+<button class="btn btn-primary"><span class="glyphicon glyphicon-ok"></span>primary</button>
+<button class="btn btn-success">success</button>
+<button class="btn btn-info">info</button>
+<button class="btn btn-danger">danger</button>
+<button class="btn btn-link">link</button>
+<button class="btn btn-warning">warning</button>
+<br>
+<button class="btn btn-lg btn-default">Default</button>
+<button class="btn btn-lg btn-primary">primary</button>
+<button class="btn btn-lg btn-success">success</button>
+<button class="btn btn-lg btn-info">info</button>
+<button class="btn btn-lg btn-danger">danger</button>
+<button class="btn btn-lg btn-link">link</button>
+<button class="btn btn-lg btn-warning">warning</button>
+<br>
+<button class="btn btn-sm btn-default">Default</button>
+<button class="btn btn-sm btn-primary">primary</button>
+<button class="btn btn-sm btn-success">success</button>
+<button class="btn btn-sm btn-info">info</button>
+<button class="btn btn-sm btn-danger">danger</button>
+<button class="btn btn-sm btn-link">link</button>
+<button class="btn btn-sm btn-warning">warning</button>
+</div>
+
+
+
+
+<i class="fa fa-camera fa-3x"></i><i class="fas fa-user fa-3x"></i> <!-- uses solid style -->
+  <i class="far fa-user fa-3x"></i> <!-- uses regular style -->
+  <i class="fal fa-user fa-3x"></i> <!-- uses light style -->
+  <!--brand icon-->
+  <i class="fab fa-github-square fa-3x"></i>
+  <i class="fa fa-facebook fa-3x"></i>
+  <i class="fa fa-twitter fa-3x"></i>
+  <i class="fa fa-google-plus fa-3x"></i>
+  <span class="glyphicon glyphicon-search"></span>
+<div class="navbar navbar-inverse navbar-static-bottom">
+<div class="container">
+<div class="navbar-text pull-right">
+<p>copyright</p>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="1000">
+<ol class="carousel-indicators">
+<li data-target="#carousel" data-slide-to="0" class="active"></li>
+<li data-target="#carousel" data-slide-to="1"></li>
+<li data-target="#carousel" data-slide-to="2"></li>
+</ol>
+
+<div class="carousel-inner">
+<div class="item active">
+<img src="Image/i6.jpg">
+</div>
+
+
+
+<div class="item">
+<img src="Image/i14.jpg">
+</div>
+</div>
+</div>
+</div>
+ 
+<ul class="navbar-nav">
+<li class="nav-item">copyright &copy; </li>
+
+<li class="nav-item">
+ 
+<a href="#" class="nav-link active">Home</a></li>
+<li class="nav-item active">
+<a href="#top" class="nav-link">Top</a>
+</li>
+</ul>
+</nav>
+<div class="container">
+<div class="row">
+<div class="panel panel-warning">
+<div class="panel-heading"><h3>Info</h3>
+</div>
+<div class="panel-body">
+
+<p>Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+</div>
+<div class="panel-footer">
+
+closing
+</div>
+</div>
+</div>
+
+<div class="well">Well</div>
+
+<div class="alert alert-success">
+<a href="#" class="close" data-dismiss="alert" aria-lable="close">&times;</a>
+<p>Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+</div>
+
+<div class="alert alert-default">
+<a href="#" class="close" data-dismiss="alert" aria-lable="close">&times;</a>
+<p>Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+</div>
+ 
+ <div class="alert alert-info">
+<a href="#" class="close" data-dismiss="alert" aria-lable="close">&times;</a>
+<p>Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+</div>
+
+<div class="alert alert-danger">
+<a href="#" class="close" data-dismiss="alert" aria-lable="close">&times;</a>
+<p>Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+</div>
+ 
+ <div class="alert alert-warning">
+<a href="#" class="close" data-dismiss="alert" aria-lable="close">&times;</a>
+<p>Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+</div>
+
+<div > Likes<span class="badge">1000</span></div>
+<div ><h1> Likes<span class="label label-primary">1000</span></h1></div>
+<span class="label label-danger">1000</span>
+<button class="btn btn-info" data-toggle="modal" data-target="#mod">Open</button>
+<div class="col-xs-12">
+<div id="mod" class="modal fade" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+ 
+ <div class="modal-header">Heading<button class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><p>Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p><p>Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p><p>Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to travel for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p></div>
+   <div class="modal-footer"><button class="btn btn-primary" data-dismiss="modal">close</button></div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<form role="form">
+<div class="row">
+<label  class="control-label col-sm-1">      Email:</label>
+<input type="email" class="form-control col-sm-11">
+</div>
+<div class="row">
+
+<label for="n" class="control-label col-sm-6">Number:</label>
+
+<input type="number" class="form-control col-sm-6 a" id="n">
+</div>
+<div class="row">
+<div class="col-sm-2">
+
+<label>
+<input type="checkbox" class="form-control">graduate</label>
+</div>
+<div class="col-sm-10">
+<input type="search" class="form-control">
+</div>
+</div>
+<div class="form-group">
+<button type="submit" class="btn btn-danger" >Submit</button>
+</div>
+</form>
+<p class='display-4'>Hi There<small><mark>Come On</mark></small></p>
+<p class='display-3'>Hi There<small><mark>Come On</mark></small></p>
+<p class='display-2'>Hi There<small><mark>Come On</mark></small></p>
+<p class='display-1'>Hi There<small><mark>Come On</mark></small></p>
+<h1>Hi There<small><mark>Come On</mark></small></h1>
+
+<h1><abbr title="India" >I for</abbr></h1>
+
+<blockquote class="blockquote font-weight-normal">
+
+Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  
+</blockquote>
+<blockquote class="blockquote lead">
+
+Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  
+</blockquote>
+<blockquote class="blockquote small">
+
+Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  
+</blockquote>
+<blockquote class="blockquote text-monospace">
+
+Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  
+</blockquote>
+<blockquote class="blockquote text-nowrap">
+
+Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  
+</blockquote>
+<blockquote class="blockquote text-capitalize">
+
+Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  
+</blockquote>
+<blockquote class="blockquote text-reset">
+
+Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  
+</blockquote>
+<blockquote class="blockquote text-uppercase">
+
+Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.
+  
+</blockquote>
+<p><kbd>Ctrl+P</kbd><br><kbd>Ctrl+X</kbd><br><kbd>Ctrl+V</kbd></p>
+
+<pre class="pre-scrollable">Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks.
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks.
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks.
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks.</pre>
+<ul class="list-inline">
+<li class="list-inline-item">A</li>
+<li class="list-inline-item">B</li>
+<li class="list-inline-item">
+
+<ul class="list-unstyled">
+<li>A</li>
+<li>B</li>
+<li>C</li>
+<li>D</li>
+<li>E</li>
+</ul>
+
+</li>
+<li class="list-inline-item">D</li>
+<li class="list-inline-item">E</li>
+</ul>
+<p class="text-muted">
+This text is muted.</p>
+<p>
+This text is important.</p>
+<p class="text-success">
+This text indicates success.</p>
+<p class="text-info">
+This text represents some information.</p>
+<p class="text-warning">
+This text represents a warning.</p>
+<p class="text-danger">
+This text represents danger.</p>
+<p class="text-secondary">
+Secondary text.</p>
+<p class="text-dark">
+Dark grey text.</p>
+<p class="text-body">
+Body text.
+</p>
+<p class="text-white">
+Body text.
+</p>
+<p class="text-light">
+Body text.
+</p>
+<p class="text-primary">
+Body text.
+</p>
+<p class="bg-warning ">
+<a href="#" class="text-dark">
+Body text.
+</a>
+</p>
+<p class="bg-primary text-danger-50">
+<a href="#" class="text-danger">
+Body text.
+</a>
+</p>
+<p class="bg-success">
+<a href="#" class="text-success">
+Body text.
+</a>
+</p>
+<p class="bg-info">
+<a href="#" class="text-info">
+Body text.
+</a>
+</p>
+<p class="bg-warning">
+<a href="#" class="text-warning">
+Body text.
+</a>
+</p>
+<p class="bg-danger">
+<a href="#" class="text-danger">
+Body text.
+</a>
+</p>
+<p class="bg-dark">
+<a href="#" class="text-dark">
+Body text.
+</a>
+</p>
+<p class="bg-light">
+<a href="#" class="text-light">
+Body text.
+</a>
+</p>
+<p class="bg-white">
+<a href="#"class="text-secondary">
+Body text.
+</a>
+</p>
+<p class="bg-secondary">
+<a href="#" class="text-success">
+Body text.
+</a>
+</p>
+<p class="bg-body">
+<a href="#" class="text-info">
+Body text.
+</a>
+</p>
+<div>
+<img src="Image/i14.jpg" class="rounded img-fluid float-left">
+</div><br>
+<p class="bg-body">
+<a href="#" class="text-info">
+Body text.
+</a>
+</p>
+<div>
+<img src="Image/i14.jpg" class="rounded-circle img-fluid float-right">
+</div><br>
+<p class="bg-body">
+<a href="#" class="text-info">
+Body text.
+</a>
+</p>
+<div>
+<img src="Image/i14.jpg" class="img-thumbnail img-fluid mx-auto d-block">
+</div><br>
+<h1>Result <div class="badge badge-primary">New</div>
+<div class="badge badge-success">New</div>
+<div class="badge badge-info">New</div>
+<div class="badge badge-warning">New</div>
+<div class="badge badge-danger">New</div>
+<div class="badge badge-secondary">New</div>
+<div class="badge badge-dark">New</div>
+<div class="badge badge-light">New</div></h1>
+
+<h1>Result <div class="badge badge-pill badge-primary">New</div>
+<div class="badge badge-pill badge-success">New</div>
+<div class="badge badge-pill badge-info">New</div>
+<div class="badge badge-pill badge-warning">New</div>
+<div class="badge badge-pill badge-danger">New</div>
+<div class="badge badge-pill badge-secondary">New</div>
+<div class="badge badge-pill badge-dark">New</div>
+<div class="badge badge-pill badge-light">New</div>
+<div class="badge badge-pill badge-muted">New</div></h1>
+<button class="btn btn-xl btn-success">Likes <span class="badge badge-dark">100</span></button>
+<div class="progress" >
+<div class="progress-bar" style="width:50%">50%
+</div>
+</div><br><br>
+<div class="progress"style="height:20px">
+<div class="progress-bar" style="width:60%;height:20px;">60%
+</div>
+</div><br><br>
+<div class="progress" style="height:30px">
+<div class="progress-bar" style="width:30%;height:30px;">30%
+</div>
+</div><br><br>
+<div class="progress" style="height:40px">
+<div class="progress-bar" style="width:80%;height:40px;">80%
+</div>
+</div><br><br>
+<div class="progress" style="height:30px">
+<div class="progress-bar bg-primary" style="width:30%;height:30px;">30%
+</div>
+</div><br><br>
+<div class="progress" style="height:30px">
+<div class="progress-bar bg-success" style="width:30%;height:30px;">30%
+</div>
+</div><br><br>
+<div class="progress" style="height:30px">
+<div class="progress-bar bg-info" style="width:30%;height:30px;">30%
+</div>
+</div><br><br>
+<div class="progress" style="height:30px">
+<div class="progress-bar bg-warning" style="width:30%;height:30px;">30%
+</div>
+</div><br><br>
+<div class="progress" style="height:30px">
+<div class="progress-bar bg-danger" style="width:30%;height:30px;">30%
+</div>
+</div><br><br>
+<div class="progress" style="height:30px">
+<div class="progress-bar bg-secondary" style="width:30%;height:30px;">30%
+</div>
+</div><br><br>
+<div class="progress" style="height:30px">
+<div class="progress-bar bg-dark" style="width:30%;height:30px;">30%
+</div>
+</div><br><br>
+<div class="progress" style="height:30px">
+<div class="progress-bar bg-white" style="width:30%;height:30px;">30%
+</div>
+</div><br><br>
+<div class="progress" style="height:30px">
+<div class="progress-bar progress-bar-striped" style="width:30%;height:30px;">30%
+</div>
+</div><br><br>
+
+<div class="progress" style="height:30px">
+<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:30%;height:30px;">30%
+</div>
+<div class="progress-bar bg-dark" style="width:30%;height:30px;">30%
+</div>
+<div class="progress-bar bg-danger" style="width:30%;height:30px;">30%
+</div>
+</div><br><br>
+
+
+<div class="dropdown">
+<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">click</button>
+<div class="dropdown-menu">
+<a href="#" class="dropdown-item">Link 1</a>
+<a href="#" class="dropdown-item">Link 2</a>
+<a href="#" class="dropdown-item">Link 3</a>
+<a href="#" class="dropdown-item">Link 4</a>
+</div>
+</div>
+<!--
+<div id="ex"  class="carousel slide" data-ride="carousel" data-interval="2000">
+
+<ul class="carousel-indicators">
+<li data-target="#ex" data-slide-to="0" class="active"></li>
+<li data-target="#ex" data-slide-to="1"></li>
+<li data-target="#ex" data-slide-to="2"></li>
+</ul>
+
+
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+<img src="Image/i6.jpg">
+<div class="carousel-caption">
+<h2>Doctors 1</h2>
+<p>Talk to them 1</p>
+</div>
+</div>
+
+<div class="carousel-item">
+<img src="Image/i10.jpg">
+<div class="carousel-caption">
+<h2>Doctors 2</h2>
+<p>Talk to them 2</p>
+</div>
+</div>
+
+<div class="carousel-item">
+<img src="Image/i14.jpg">
+<div class="carousel-caption">
+<h2>Doctors 3</h2>
+<p>Talk to them 3</p>
+</div>
+</div>
+
+</div>
+
+<a class="carousel-control-prev" href="#ex" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+<a class="carousel-control-next" href="#ex" data-slide="next">
+<span class="carousel-control-next-icon" ></span>
+</a>
+
+</div>
+</div>
+-->
+<iframe
+scrolling="no"
+frameborder="0"
+src="../JScalculator.html"
+>
+</iframe>
+<ul>
+<li class="fab fa-accusoft"></li>
+<li class="fas fa-ad fa-4x"></li>
+<li class="fas fa-address-book fa-4x"></li>
+<li class="far fa-address-book fa-4x"></li>
+<li class="far fa-address-card fa-4x"></li>
+<li class="fas fa-address-card fa-4x"></li>
+<li class="fas fa-amazon fa-4x"></li>
+
+<li class="fab fa-amazon-pay fa-4x"></li>
+
+<li class="fas fa-angle-double-left fa-4x"></li>
+<li class="fas fa-angle-double-right fa-4x"></li>
+<li class="fas fa-angle-right fa-4x"></li>
+<li class="fas fa-angle-up fa-4x"></li>
+<li class="fab fa-apple fa-4x"></li>
+<li class="fas fa-arrow-left fa-4x"></li>
+<li class="fas fa-arrow-circle-right fa-4x"></li>
+
+<li class="fas fa-at fa-4x"></li><br>
+<li class="fas fa-battery-half fa-4x"></li><br>
+<li class="fas fa-battery-three-quarter fa-4x"></li><br>
+<li class="fas fa-bell fa-4x"></li><br>
+<li class="fas fa-bell-slash fa-4x"></li><br>
+<li class="fab fa-bluetooth fa-4x"></li><br>
+<li class="fas fa-bookmark fa-4x"></li><br>
+<li class="fas fa-caret-down fa-4x"></li><br>
+<li class="fas fa-check fa-4x"></li><br>
+<li class="fas fa-check-circle fa-4x"></li><br>
+<li class="fas fa-clock fa-4x"></li><br>
+<li class="fas fa-cloud-sun-rain fa-4x"></li><br>
+<li class="fas fa-comment fa-4x"></li><br>
+<li class="fas fa-cog fa-4x"></li><br>
+<li class="fas fa-cogs fa-4x"></li><br>
+<li class="fas fa-exclaimation-triangle fa-4x"></li><br>
+<li class="fab fa-facebook fa-4x"></li><br>
+<li class="fab fa-facebook-f fa-4x"></li><br>
+<li class="fas fa-envelope fa-4x"></li><br>
+<li class="fab fa-edge fa-4x"></li><br>
+<li class="fab fa-google fa-4x"></li><br>
+<li class="fab fa-google-play fa-4x"></li><br>
+<li class="fab fa-google-drive fa-4x"></li><br>
+<li class="fab fa-chrome fa-4x"></li><br>
+<li class="fab fa-google-plus-g fa-4x"></li><br>
+<li class="fas fa-key fa-4x"></li><br>
+<li class="fas fa-layer-group fa-4x"></li><br>
+<li class="fas fa-mobile-alt fa-4x"></li><br>
+<li class="fab fa-python fa-4x"></li><br>
+<li class="fas fa-share-alt fa-4x"></li><br>
+<li class="fas fa-thumbs-up fa-4x"></li><br>
+<li class="fab fa-windows fa-4x"></li><br>
+<li class="fab fa-whatsapp fa-4x"></li><br>
+<li class="fas fa-wifi fa-4x"></li><br>
+<li class="fab fa-youtube fa-4x"></li><br>
+<span class="glyphicon glyphicon-adjust"></span>
+<span class="access_time"></span><br>
+<span class="access_time"></span><br>
+</ul>
+<table class="table table-striped table-hover table-sm table-responsive-xl thead-dark">
+<tr><th>Name</th><th>Age</th><th>RollNo</th><th>Price</th><th>RollNo</th><th>Price</th><th>RollNo</th><th>Price</th><th>RollNo</th><th>Price</th><th>RollNo</th><th>Price</th><th>RollNo</th><th>Price</th><th>Price</th><th>RollNo</th><th>Price</th><th>RollNo</th><th>Price</th><th>Price</th><th>RollNo</th><th>Price</th><th>RollNo</th><th>Price</th><th>Price</th><th>RollNo</th><th>Price</th><th>RollNo</th><th>Price</th></tr>
+<tr class="table-info"><td>A</td><td>12</td><td>11</td><td>132.23</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td></tr>
+<tr class="table-secondary"><td>B</td><td>122</td><td>21</td><td>232.23</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td></tr>
+<tr class="table-light"><td>C</td><td>123</td><td>12</td><td>13243.22</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td><td>11</td></tr>
+</table>
+<div class="card-columns">
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+</div>
+</div>
+<div class="card-deck">
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+</div>
+</div>
+<div class="card-group">
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+<div class="card" style="width:400px">
+
+<div class="card-header bg-success text-white">Header</div>
+
+<div class="card-body">
+<h1 class="card-title">Hello</h1>
+<p class="card-text">Being a traveler you usually dream to travel for your soul,
+  to improve your outlook <code>towards life</code>, and of course, to bring ultimate happiness.
+  Being a traveler you usually dream to <code>travel </code>for your soul,
+  to improve your outlook towards life, and of course, to bring ultimate happiness.</p>
+<a href="#" class='card-link stretched-link'>Link1</a> 
+<a href="#" class='card-link'>Link2</a> 
+<a href="#" class='card-link'>Link3</a>  
+</div>
+<div class="card-footer bg-secondary">
+Footer
+</div>
+</div>
+</div>
+</div>
+</body>
+
+</html>

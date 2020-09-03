@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Dice Game for you</title>
+
+<style>
+
+*
+{
+margin:auto;
+}
+
+.header{
+	background-color:rgb(12,76,117);
+	padding:5px ;
+	color:white;
+}
+
+button{
+	width:100px;
+	background-color:rgb(90,12,256);
+	padding:10px ;
+	font-size:20px;
+	cursor:pointer;
+	color:white;
+	border:none;
+	
+}
+
+button:hover{
+opacity:0.8;
+}
+
+#p{
+font-size:40px;
+color:lightgreen;
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="header" align="center">
+
+<h1>Dice Game</h1>
+
+</div>
+
+</header>
+
+<br><br><br>
+
+<center>
+
+<button onclick="fun()">Throw</button>
+
+<br><br><br>
+
+<img src="">
+
+<p id="p"></p>
+
+</center>
+
+<script>
+
+function fun()
+{
+
+var a = Math.floor(Math.random()*6)+1;
+
+var p = document.getElementById("p");
+
+var image=document.getElementsByTagName("img")[0];
+
+Arrayimage=["d1.jpg","d2.jpg","d3.jpg","d4.jpg","d5.jpg","d6.jpg"];
+
+if(a==1)
+{
+    p.innerHTML="1";
+	
+	
+	image.setAttribute("src",Arrayimage[0]);
+}
+
+else if(a==2)
+{
+    p.innerHTML="2";
+	image.setAttribute("src",Arrayimage[1]);
+}
+
+else if(a==3)
+{   
+    p.innerHTML="3";
+	image.setAttribute("src",Arrayimage[2]);
+}
+
+else if(a==4)
+{ 
+    p.innerHTML="4";
+	image.setAttribute("src",Arrayimage[3]);
+}
+
+else if(a==5)
+{
+     p.innerHTML="5";
+	image.setAttribute("src",Arrayimage[4]);
+}
+
+else if(a==6)
+{
+    p.innerHTML="6";
+	image.setAttribute("src",Arrayimage[5]);
+}
+
+}
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+<html>
+
+<head>
+
+<title>calculator 2K19</title>
+
+<script>
+
+function fun()
+   {
+
+	var a = document.getElementById("i1").value;
+	
+	var b = document.getElementById("i2").value;
+	
+	var c = document.getElementById("i3");
+	
+	var d = document.getElementById("i4");
+	
+	var e= document.getElementById("para");
+	
+	if(c.value =="+")
+	
+	d.value=parseFloat(a)+parseFloat(b);	
+	
+	else if(c.value =="-")
+	
+	d.value=a-b;	
+
+	else if(c.value =="*")
+	
+	d.value=a*b;	
+	
+	else if(c.value =="/")
+	
+	d.value=a/b;	
+	
+	else
+	{
+	d.value="";
+	e.innerHTML="Invalid Operator Given ";
+	}
+	}
+	
+</script>
+
+<style>
+*{
+margin:0px;
+}
+
+#heading
+{
+background-color:#23AB78;
+text-align:center;
+padding:14px;
+
+}
+
+body
+{
+position:relative;
+}
+
+input[type=number],input[type=text]
+{
+font-size:17px;
+width: 50%;
+padding: 15px;
+height:25px;
+background-color:#f1f1f1;
+}
+
+input[type=button]
+{
+width:124px;
+background-color:#23AB78;
+border:none;
+color:white;
+padding-bottom:10px;
+padding-top:10px;
+font-size:15px;
+cursor:pointer;
+}
+
+input[type=submit]:hover
+{
+opacity:0.8;
+}
+
+#form{
+position:absolute;
+margin-top:5%;
+margin-left:25%;
+margin-right:25%;
+font-size:20px;
+}
+
+p{
+color:red;
+font-size:30px;
+text-align:center;
+text-decoration:underline;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="heading">
+
+<h1>Calculator</h1>
+
+</div>
+
+<div id="form" align="center">
+
+            <form>  
+			
+            Enter 1st Number : <input id="i1" type="number" name="num1" step="0.001" required>
+			
+			<br><br>
+			
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Operator : <input id="i3" type="text" placeholder="+, -, * or /" name="optr" required>
+
+<br><br>
+			Enter 2nd Number: <input id="i2" type="number" name="num2" step="0.001" required>
+			
+			<br><br>
+			
+                            
+&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" onclick="fun()" value="Get Answer">
+						
+							<br><br>
+				                      
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Answer : <input id="i4" type="text" name="num3">
+
+</form>
+
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p id="para"></p>
+</body>
+
+</html>
