@@ -1,4 +1,4 @@
-<?php 
+       <?php 
 
 	require 'vendor/autoload.php';
 	$client= new  MongoDB\Client;
@@ -9,6 +9,9 @@
 	['Name'=>'josh'],
 	['$set'=>['country'=>'australia']]
 	);
+
 	printf("Matched %d documents \n",$updateResult->getMatchedCount());
+
 	printf("Modified %d documents \n",$updateResult->getModifiedCount());
-?>
+
+       ?>

@@ -1,0 +1,27 @@
+.footer{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:1650px;
+	background-color:#002f4d;
+	padding-bottom:2px;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.para{
+	color:white;
+}
+
+.part{
+	color:#198b90;
+}
+
+.heading{
+	color:#002f4d;
+}
+
+.para2{
+	font-size:25px;
+	
+}

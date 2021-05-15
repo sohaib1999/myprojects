@@ -1,0 +1,34 @@
+{%extends 'index.html'%}
+
+
+
+{% block bodyblock%}
+
+<div class='container'>
+
+<h1>Gender Classification</h1>
+
+<br><br><br>
+
+<form action='#' method='POST' enctype="multipart/form-data" > 
+
+<label for='upload'>Choose file :</label> &nbsp;<input type='file' id='upload' name='image' required>
+  
+
+<input type='submit' value='Upload & Predict'required>
+
+</form>
+
+{% if upload%}
+
+  <img src='{{url_for('static',filename='uploads/')}}{{img_name}}' width='300' height='300'>
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+  <img src='{{url_for('static',filename='predict/')}}{{img_name}}' width='300' height='300'>
+  
+{% endif %}
+
+</div>
+
+{% endblock%}

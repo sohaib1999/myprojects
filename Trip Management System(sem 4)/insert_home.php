@@ -1,7 +1,10 @@
 <html>
+
 <head></head>
+
 <body>
-<?php 
+
+     <?php 
 
 	require 'vendor/autoload.php';
 	$client= new  MongoDB\Client;
@@ -9,11 +12,13 @@
 	$table1=$db->table1;
 	
 	$insertOneResult=$table1->insertOne([
-	['Destination'=>$_POST["H"],'Date'=>$_POST["I"]]
-	
-	]);
+	['Destination'=>$_POST["H"],'Date'=>$_POST["I"]]]);
+
 	printf("inserted %d documents",$insertOneResult->getInsertedCount());
+
 	var_dump($insertOneResult->getInsertedId());
-?>
+      ?>
+
 </body>
+
 </html>

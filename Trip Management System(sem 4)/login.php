@@ -1,46 +1,49 @@
 <html>
+
 <head>
+
 <title>
 Login Page
 </title>
+
 <style>
+
 a{
-	text-decoration:none;
-	color:blue;
+  text-decoration:none;
+  color:blue;
 }
+
 #a{
-	background-color:skyblue;
+  background-color:skyblue;
 }
 
 #i{
-font-size:30px;
-font-family:verdana;
-color:#35AABC;
+  font-size:30px;
+  font-family:verdana;
+  color:#35AABC;
 }
-#m{
-		background-color:black;
-		color:white;
-		padding:20px 16px;
 
-	}
+#m{
+  background-color:black;
+  color:white;
+  padding:20px 16px;
+}
 	
- #s{
+#s{
   right: 0;
   margin: 20px;
   max-width: 300px;
   border:1px;
   padding: 16px;
- 
 }
 
 
-  input[type=text], input[type=password] {
+input[type=text], input[type=password] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
   background: #f1f1f1;
 }
-
 
 .btn {
   background-color: #4CAF50;
@@ -53,35 +56,62 @@ color:#35AABC;
 .btn:hover {
   opacity: 1;
 }
+
 #b{
-	font-size:20px;
+  font-size:20px;
 }
+
 </style>
+
 </head>
+
 <body>
+
 <span id="i"><i>TRIPPLANNER.COM</i></span>
+
 <hr>
+
 <h1 id="a">Login Panel</h1>
+
 <center>
+
 <h2>
+
 Trip Planner Login
+
 </h2>
-<p>Login up to access your plan from any device<br>
+
+<p>
+Login up to access your plan from any device<br>
 By continuing, you agree to Inspirock's Terms of Use and Privacy policy
 </p>
+
 </center>
+
 <span id="s">
+
 <form action="insert_login.php" method="post">
 
 <p>UserName:<input type="text" name="A" required></p>
+
 <p>Password:<input type="password" name="B" required></p>
+
 <input type="submit" Value="Login" class="btn" style="font-size:20px;color:white;">
+
 </form>
+
 </span>
+
 <center>
+
 <p id="b">Don't have an account? <a href="signup.php">Signup</a></p>
+
 </center>
+
 <br><br><br><br><br><br><br><br><br>
+
 <p id="m">&copy; 2019&nbsp;Trip Planner&reg;-All Rights Reserved<br>&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;<br></p>
+
 </body>
+
 </html>

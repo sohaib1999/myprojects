@@ -1,4 +1,4 @@
-<?php 
+       <?php 
 
 	require 'vendor/autoload.php';
 	$client= new  MongoDB\Client;
@@ -8,5 +8,7 @@
 	$deleteResult=$table1->deleteOne(
 	['Destination'=>'korea']
 	);
+
 	printf("deleted %d documents \n",$deleteResult->getDeletedCount());
+
 	?>

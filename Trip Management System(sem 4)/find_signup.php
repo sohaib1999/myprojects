@@ -1,4 +1,4 @@
-<?php 
+        <?php 
 
 	require 'vendor/autoload.php';
 	$client= new  MongoDB\Client;
@@ -6,8 +6,10 @@
 	$table3=$db->table3;
 
 	$document=$table3->find();
+
 	foreach($document as $doc)
 	{
-	print_r($doc);
+	 print_r($doc);
 	}
-?>
+        
+         ?>

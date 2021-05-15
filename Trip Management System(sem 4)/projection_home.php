@@ -1,4 +1,4 @@
-<?php 
+        <?php 
 
 	require 'vendor/autoload.php';
 	$client= new  MongoDB\Client;
@@ -7,8 +7,10 @@
 	
 	$document=$table1->find(
 	['projection'=>['Destination'=> 1,'_id'=> 0]]);
+
 	foreach($document as $doc)
 	{
-	printf($doc);
+	 printf($doc);
 	}
-?>
+
+        ?>

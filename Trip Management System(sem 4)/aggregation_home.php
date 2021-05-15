@@ -1,5 +1,4 @@
-<?php 
-
+      <?php 
 	require 'vendor/autoload.php';
 	$client= new  MongoDB\Client;
 	$db= $client->db;
@@ -11,7 +10,9 @@
 	['$limit'=>5]
 	]
 	);
+
 	foreach($find as $agg){
 	printf("%s has %d members\n",$agg['_id'],$agg['count']);
 	}
+
 	?>
